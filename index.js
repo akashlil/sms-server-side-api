@@ -7,7 +7,7 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const DBConnect = require("./dbconnect/DBconnect");
 
-/* router path link */
+/* router path link    */
 const adminRoute = require("./routes/v1/admin.route");
 
 /* connect to mongoose  */
